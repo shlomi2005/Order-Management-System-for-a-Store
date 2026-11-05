@@ -2,7 +2,7 @@ import json
 from pathlib import Path
 from add_orders import discount_percentages
 
-AAA = Path(__file__).parent / "order.json"
+AAA = Path(__file__).order_management / "order.json"
 
 
 def writing_to_json():
